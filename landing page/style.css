@@ -204,11 +204,35 @@ video {
     width: 200px;
   }
 }
+
+@media (max-width: 280px) {
+  video {
+    width: 180px;
+  }
+}
+
 /* BACKGROUND HEADER SIZE */
+
+@media (max-width: 375px) {
+  header {
+    height: 9svh;
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    height: 8svh;
+  }
+}
 
 @media (max-width: 320px) {
   header {
     height: 7svh;
+  }
+}
+@media (max-width: 280px) {
+  header {
+    height: 9svh;
   }
 }
 
@@ -270,11 +294,38 @@ video {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
+  aside > p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
   aside {
-    width: 250px;
-    left: 60px;
-    top: 150px;
+    width: 80%;
+    left: 10%;
+    top: 15%;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  aside > p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 280px) {
+  aside {
+    width: auto;
+    left: 10%;
+    top: 10%;
+  }
+}
+
+@media (max-width: 280px) {
+  aside > p {
+    font-size: 15px;
   }
 }
 
