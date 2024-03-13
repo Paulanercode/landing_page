@@ -85,11 +85,12 @@ button {
 
 .container {
   display: flex;
-  justify-content: start;
+  justify-content: end;
   align-items: end;
   width: 100%;
   height: 100svh;
   overflow-y: hidden;
+  padding: 50px 50px;
 }
 
 aside {
@@ -100,7 +101,7 @@ aside {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: 17vw;
+  width: 30vw;
   height: 20svh;
   padding: 20px;
   gap: 10px;
@@ -112,7 +113,7 @@ aside {
 
 h1 {
   color: rgba(255, 0, 0, 0.85);
-  font-size: 173%;
+  font-size: 35px;
   margin-bottom: 6%;
   padding: 5px;
   font-weight: bolder;
@@ -141,116 +142,83 @@ body {
 h2 {
   color: white;
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 40px;
   border-bottom: 2px solid white;
   text-shadow: 0 0 20px #b52e2ed0;
 }
 .gameplay {
-  position: absolute;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: end;
+  align-content: flex-end;
   align-items: center;
-  width: 70%;
-  top: 68%;
-  left: 50%;
-  gap: 10px;
+  gap: 20px;
+}
+video {
+  width: 400px;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 1027px) {
   header > nav {
     display: none;
   }
 }
-@media (max-width: 799px) {
+@media (max-width: 1027px) {
   #buy {
     display: none;
   }
 }
-@media (max-width: 799px) {
+@media (max-width: 1027px) {
   .menu {
     display: block;
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 1027px) {
   .logo-firefly {
     display: none;
   }
 }
 
+@media (max-width: 503px) {
+  video {
+    width: 350px;
+  }
+}
+
+@media (max-width: 451px) {
+  video {
+    width: 300px;
+  }
+}
+
+@media (max-width: 403px) {
+  video {
+    width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  video {
+    width: 200px;
+  }
+}
 /* BACKGROUND HEADER SIZE */
-@media (max-width: 425px) {
-  header {
-    display: flex;
-    align-items: start;
-  }
-}
-@media (max-width: 427px) {
-  header {
-    display: flex;
-    align-items: start;
-  }
-}
-
-@media (max-width: 768px) {
-  header {
-    height: 80px;
-  }
-}
-
-@media (max-width: 425px) {
-  header {
-    height: 50px;
-  }
-}
 
 @media (max-width: 320px) {
   header {
-    height: 20px;
+    height: 7svh;
   }
 }
 
 /* ASIDE RESPONSIVE*/
 
-@media (max-width: 1440px) {
-  aside {
-    width: 30%;
-    left: 10%;
-    top: 30%;
-  }
-}
-
-@media (max-width: 1440px) {
-  aside > p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 1440px) {
-  aside > h1 {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1168px) {
   aside {
     width: 40%;
     left: 10%;
     top: 30%;
-  }
-}
-
-@media (max-width: 1024px) {
-  aside > p {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 1024px) {
-  aside > h1 {
-    font-size: 23px;
   }
 }
 
@@ -262,143 +230,59 @@ h2 {
   }
 }
 
-@media (max-width: 768px) {
-  aside > h1 {
-    font-size: 21px;
+@media (max-width: 875px) {
+  aside {
+    width: 70%;
+    left: 20%;
+    top: 20%;
   }
 }
 
-@media (max-width: 768px) {
-  aside > p {
-    font-size: 13px;
+@media (max-width: 500px) {
+  aside > h1 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 475px) {
+  aside > h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 438px) {
+  aside > h1 {
+    font-size: 28px;
   }
 }
 
 @media (max-width: 425px) {
   aside {
-    width: 100%;
-    left: 50%;
-    top: 10%;
+    width: 300px;
+    left: 70px;
+    top: 150px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 438px) {
   aside > h1 {
-    font-size: 18px;
+    font-size: 23px;
   }
 }
 
-@media (max-width: 425px) {
-  aside > p {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 425px) {
+@media (max-width: 360px) {
   aside {
-    width: 75%;
-    left: 15%;
-    top: 10%;
+    width: 250px;
+    left: 60px;
+    top: 150px;
   }
 }
 
-@media (max-width: 375px) {
-  aside > h1 {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 375px) {
-  aside > p {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 375px) {
-  aside {
-    width: 80%;
-    left: 10%;
-    top: 10%;
-  }
-}
-
-@media (max-width: 320px) {
-  aside > h1 {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 320px) {
-  aside > p {
-    font-size: 8px;
-  }
-}
-
-/* GAMEPLAY RESPONSIVE*/
-
-@media (max-width: 1440px) {
-  .gameplay {
-    top: 78%;
-    left: 40%;
-    width: 88%;
-  }
-}
-
-@media (max-width: 1440px) {
-  h2 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .gameplay {
-    top: 78%;
-    left: 32%;
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .gameplay {
-    top: 70%;
-    left: -20%;
-    width: 140%;
-  }
-}
-
-@media (max-width: 768px) {
-  h2 {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 425px) {
-  h2 {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 375px) {
-  h2 {
-    font-size: 20px;
-  }
-}
+/*LOGO THE LAST OF US*/
 
 @media (max-width: 426px) {
   .logo-the-last {
     width: 140px;
-  }
-}
-
-@media (max-width: 375px) {
-  .logo-the-last {
-    width: 65px;
-  }
-}
-
-@media (max-width: 320px) {
-  .logo-the-last {
-    width: 40px;
   }
 }
 
@@ -469,5 +353,4 @@ footer {
   display: flex;
   justify-content: start;
   align-items: start;
-  background-color: aquamarine;
 }
