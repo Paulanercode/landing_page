@@ -156,7 +156,7 @@ h2 {
   gap: 20px;
 }
 video {
-  width: 400px;
+  width: 50vh;
 }
 
 @media (max-width: 1027px) {
@@ -183,31 +183,31 @@ video {
 
 @media (max-width: 503px) {
   video {
-    width: 350px;
+    width: 75vw;
   }
 }
 
 @media (max-width: 451px) {
   video {
-    width: 300px;
+    width: 75vw;
   }
 }
 
-@media (max-width: 403px) {
+@media (max-width: 425px) {
   video {
-    width: 250px;
+    width: 75vw;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 365px) {
   video {
-    width: 200px;
+    width: 60vw;
   }
 }
 
 @media (max-width: 280px) {
   video {
-    width: 180px;
+    width: 65vw;
   }
 }
 
